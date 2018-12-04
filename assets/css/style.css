@@ -1,0 +1,32 @@
+.container {
+    font-family: Monoton;
+    background-color: greenyellow;
+    align-content: stretch;
+    letter-spacing: 10px;
+    word-spacing: 30px;
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    width: 100%;
+}
+
+.row {
+    flex-direction: column;
+    background-color: inherit;
+    border: 3px solid; 
+    color:#607F1F;
+    height: 100%;
+    width: 100%;
+}
+
+
+.col {
+    background-color:inherit;
+    height: 100%;
+    flex-direction: row;
+}
+
+.card {
+    background-color: inherit;
+}
+
